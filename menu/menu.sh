@@ -232,7 +232,7 @@ echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $res
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}06${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}     │"
+echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] GEN SSL   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
