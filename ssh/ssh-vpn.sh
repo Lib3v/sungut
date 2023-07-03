@@ -281,6 +281,7 @@ wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/men
 wget -O menu-trojan "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-trojan.sh"
 wget -O updatemenu "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/updatemenu.sh"
 wget -O dom "https://raw.githubusercontent.com/Lib3v/sungut/main/dom.sh"
+wget -O genssl "https://raw.githubusercontent.com/Lib3v/sungut/main/genssl.sh"
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-ssh.sh"
 wget -O usernew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/usernew.sh"
@@ -338,7 +339,7 @@ chmod +x delete
 chmod +x autokill
 chmod +x ceklim
 chmod +x tendang
-
+chmod +x genssl
 chmod +x menu-set
 chmod +x menu-domain
 chmod +x add-host
