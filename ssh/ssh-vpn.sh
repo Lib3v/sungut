@@ -280,6 +280,7 @@ wget -O clearcache "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/cle
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-trojan.sh"
 wget -O updatemenu "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/updatemenu.sh"
+wget -O dom "https://raw.githubusercontent.com/Lib3v/sungut/main/dom.sh"
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-ssh.sh"
 wget -O usernew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/usernew.sh"
@@ -317,6 +318,7 @@ wget -O restore "https://raw.githubusercontent.com/artanodrop/v4/main/backup/res
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
 # chmod
 chmod +x menu
+chmod +x dom
 chmod +x menu-trial
 chmod +x menu-vmess
 chmod +x menu-vless
