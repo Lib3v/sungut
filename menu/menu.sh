@@ -236,6 +236,8 @@ echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}09${BICyan}] GEN SSL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
+echo -e " [ 11 ] domen gratis"
+echo -e " [ 12 ] GENSSL"
 echo -e                  " ${BICyan}┌─────────────────────────────────────┐${NC}"
 echo -e                  " ${BICyan}│  Version        ${NC} : Lib3v / v4 Lts."
 echo -e                  " ${BICyan}│  Expired        ${NC} : ${BIYellow}$Exp${NC} Days"
@@ -254,6 +256,8 @@ case $opt in
 8) clear ; addhost ;;
 9) clear ; genssl ;;
 10) clear ; jam ;;
+11) clear ; dom ;;
+12) clear ; genssl ;;
 6969) clear ; wget https://raw.githubusercontent.com/Lib3v/sungut/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
