@@ -243,7 +243,7 @@ echo -e "${BICyan} └───────────────────�
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BIYellow} SSH ${NC}: $ssh1"" ${BIYellow}  VMESS ${NC}: $vma"" ${BIYellow}  VLESS ${NC}: $vla"" ${BIYellow}  TROJAN ${NC}: $tra"
+echo -e "     ${BIYellow} SSH ${NC}: ${BIWhite}$ssh1${NC}"" ${BIYellow}  VMESS ${NC}: ${BIWhite}$vma${NC}"" ${BIYellow}  VLESS ${NC}: ${BIWhite}$vla${NC}"" ${BIYellow}  TROJAN ${NC}: ${BIWhite}$tra${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}06${BICyan}] TRIALL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
