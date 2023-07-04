@@ -243,7 +243,7 @@ echo -e "${BICyan} └───────────────────�
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan} SSH ${NC}: $ssh1"" ${BICyan} VMESS ${NC}: $vma"" ${BICyan}  VLESS ${NC}: $vla"" ${BICyan} TROJAN ${NC}: $tra"
+echo -e "     ${BIYellow} SSH ${NC}: $ssh1"" ${BIYellow}  VMESS ${NC}: $vma"" ${BIYellow}  VLESS ${NC}: $vla"" ${BIYellow}  TROJAN ${NC}: $tra"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}06${BICyan}] TRIALL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
@@ -252,12 +252,10 @@ echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}09${BICyan}] GEN SSL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo -e " [ 11 ] domen gratis"
-echo -e " [ 12 ] GENSSL"
-echo -e "            ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e "            ${BICyan}│  Version        ${NC} : Lib3v / v4 Lts."
-echo -e "            ${BICyan}│  Expired        ${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e "            ${BICyan}└─────────────────────────────────────┘${NC}"
+echo -e "          ${BICyan}┌─────────────────────────────────────┐${NC}"
+echo -e "          ${BICyan}│  Version     ${NC} : Lib3v / v4 Lts."
+echo -e "          ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
+echo -e "          ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " select menu [ 1 / 10 ] --- >>     " opt   | lolcat
 echo -e ""
@@ -272,8 +270,6 @@ case $opt in
 8) clear ; addhost ;;
 9) clear ; genssl ;;
 10) clear ; jam ;;
-11) clear ; dom ;;
-12) clear ; genssl ;;
 6969) clear ; wget https://raw.githubusercontent.com/Lib3v/sungut/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
