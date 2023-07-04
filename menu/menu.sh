@@ -1,4 +1,17 @@
 #!/bin/bash
+vlx=$(grep -c -E "^#& " "/etc/xray/config.json") 
+ let vla=$vlx/2
+ vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
+ let vma=$vmc/2 
+ ssh1="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)" 
+ trx=$(grep -c -E "^#! " "/etc/xray/config.json") 
+ let tra=$trx/2 
+ ssx=$(grep -c -E "^## " "/etc/xray/config.json") 
+ let ssa=$ssx/2 
+ COLOR1='\033[0;35m' 
+ COLOR2='\033[0;39m' 
+ clear
+
 BURIQ () {
     curl -sS https://raw.githubusercontent.com/Lib3v/otw/main/ip > /root/tmp
     data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
@@ -223,12 +236,18 @@ clear
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"
 echo -e "${BICyan} │"
-echo -e " ${BICyan}│  ${BICyan}Use Core        :  ${BIPurple}$Name${NC}"
-echo -e " ${BICyan}│  ${BICyan}Domain          :  ${BIPurple}$(cat /etc/xray/domain)${NC}"
-echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
-echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIPurple}$Name${NC}"
+echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}$(cat /etc/xray/domain)${NC}"
+echo -e "${BICyan} │  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
+echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
+echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan} │${NC}       ${YELLOW}SSH    :  $ssh1"
+echo -e "${BICyan} │${NC}       ${YELLOW}VMES   :  $vma"
+echo -e "${BICyan} │${NC}       ${YELLOW}VLES   :  $vla"
+echo -e "${BICyan} │${NC}       ${YELLOW}TROJAN :  $tra"
+echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}06${BICyan}] TRIALL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}07${BICyan}] BACKUP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
