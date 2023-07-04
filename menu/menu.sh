@@ -252,10 +252,10 @@ echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}09${BICyan}] GEN SSL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo -e "          ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e "          ${BICyan}│  Version     ${NC} : Lib3v / v4 Lts."
-echo -e "          ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e "          ${BICyan}└─────────────────────────────────────┘${NC}"
+echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
+echo -e "         ${BICyan}│  Version     ${NC} : Lib3v / v4 Lts."
+echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
+echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " select menu [ 1 / 10 ] --- >>     " opt   | lolcat
 echo -e ""
