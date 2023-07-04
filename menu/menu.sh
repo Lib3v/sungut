@@ -243,10 +243,7 @@ echo -e "${BICyan} └───────────────────�
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │${NC}       ${YELLOW}SSH    :  $ssh1"
-echo -e "${BICyan} │${NC}       ${YELLOW}VMES   :  $vma"
-echo -e "${BICyan} │${NC}       ${YELLOW}VLES   :  $vla"
-echo -e "${BICyan} │${NC}       ${YELLOW}TROJAN :  $tra"
+echo -e "     ${BICyan} SSH ${NC}: $ssh1"" ${BICyan} VMESS ${NC}: $vma"" ${BICyan}  VLESS ${NC}: $vla"" ${BICyan} TROJAN ${NC}: $tra"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}06${BICyan}] TRIALL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
@@ -257,12 +254,12 @@ echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e " [ 11 ] domen gratis"
 echo -e " [ 12 ] GENSSL"
-echo -e                  " ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e                  " ${BICyan}│  Version        ${NC} : Lib3v / v4 Lts."
-echo -e                  " ${BICyan}│  Expired        ${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e                  " ${BICyan}└─────────────────────────────────────┘${NC}"
+echo -e "            ${BICyan}┌─────────────────────────────────────┐${NC}"
+echo -e "            ${BICyan}│  Version        ${NC} : Lib3v / v4 Lts."
+echo -e "            ${BICyan}│  Expired        ${NC} : ${BIYellow}$Exp${NC} Days"
+echo -e "            ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
-read -p " select menu [ 1 / 10 ] ---- >>     " opt
+read -p " select menu [ 1 / 10 ] --- >>     " opt   | lolcat
 echo -e ""
 case $opt in
 1) clear ; menu-ssh ;;
