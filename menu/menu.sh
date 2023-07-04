@@ -250,9 +250,9 @@ echo -e "         ${BICyan}│  Version     ${NC} : Lib3v / v4 Lts."
 echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
-read -p " select menu [ 1 / 10 ] --- >>     " opt   | lolcat
+read -p " select menu [ 1 / 10 ] --- >>     " otw
 echo -e ""
-case $opt in
+case $otw in
 1) clear ; menu-ssh ;;
 2) clear ; menu-vmess ;;
 3) clear ; menu-vless ;;
