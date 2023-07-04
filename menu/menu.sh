@@ -223,14 +223,7 @@ sleep 2
 echo $domain > /etc/xray/domain
 systemctl restart xray
 systemctl restart nginx
-echo -e "[ ${green}INFO${NC} ] All finished... " 
-sleep 0.5
-echo ""
-read -n 1 -s -r -p "Press any key to back on menu"
-menu
 }
-export sem=$( curl -s https://raw.githubusercontent.com/Fikripps/permission/main/versions)
-export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
