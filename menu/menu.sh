@@ -259,8 +259,8 @@ case $otw in
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
 6) clear ; menu-trial ;;
-7) clear ; menu-bckp ;;
-8) clear ; addhost ;;
+7) clear ; menu-backup ;;
+8) clear ; add-host ;;
 9) clear ; genssl ;;
 10) clear ; jam ;;
 6969) clear ; wget https://raw.githubusercontent.com/Lib3v/sungut/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
