@@ -314,8 +314,10 @@ wget -O acs-set "https://raw.githubusercontent.com/artanodrop/v4/main/acs-set.sh
 wget -O sshws "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/sshws.sh"
 wget -O status "https://raw.githubusercontent.com/artanodrop/v4/main/status.sh"
 wget -O menu-bckp "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-bckp.sh"
-wget -O backup "https://raw.githubusercontent.com/artanodrop/v4/main/backup/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/artanodrop/v4/main/backup/restore.sh"
+wget -O menu-bckp "https://raw.githubusercontent.com/Lib3v/sungut/main/backup/menu-backup.sh"
+
+wget -O backup "https://raw.githubusercontent.com/Lib3v/v4/main/backup/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/Lib3v/v4/main/backup/restore.sh"
 wget -O jam "https://raw.githubusercontent.com/artanodrop/v4/main/jam.sh"
 # chmod
 chmod +x menu
