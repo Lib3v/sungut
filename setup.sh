@@ -149,7 +149,7 @@ wget https://raw.githubusercontent.com/Lib3v/sungut/main/ssh/ssh-vpn.sh && chmod
 ### Pasang Rclone
 function pasang_backup() {
     judge "Memasang backup server"
-    wget https://raw.githubusercontent.com/artanodrop/v4/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh >/dev/null 2>&1
+    wget wget https://raw.githubusercontent.com/Andyyuda/v4/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
     print_success "backup server"
 }
 
