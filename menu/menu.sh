@@ -259,7 +259,7 @@ case $otw in
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
 6) clear ; menu-trial ;;
-7) clear ; menu-backup ;;
+7) clear ; menu-bckp ;;
 8) clear ; add-host ;;
 9) clear ; genssl ;;
 10) clear ; jam ;;
