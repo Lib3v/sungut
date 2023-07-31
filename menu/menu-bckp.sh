@@ -74,5 +74,5 @@ case $opt in
 01 | 1) clear ; backup ;;
 02 | 2) clear ; restore ;;
 00 | 0) clear ; menu ;;
-*) clear ; menu-bckp ;;
+*) clear ; menu-backup ;;
 esac
